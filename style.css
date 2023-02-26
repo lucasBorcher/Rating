@@ -54,7 +54,7 @@ h1{
     font-size: 24px;
 }
 
-.paragraph{
+p{
     color: var(--Light-Grey);
     margin: 1rem 1.2rem 1.5rem 0 ;
     line-height: 1.5rem;
@@ -100,4 +100,28 @@ h1{
 #submit:hover{
     background-color: var(--White);
     color: var(--Orange);
+    
+}
+
+.container2{
+    display: none;
+    flex-direction: column;
+    background: var(--Dark-Blue);
+    border-radius: 25px;
+    padding: 2rem;
+    width: 425px;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected{
+    color: var(--Orange);
+    background: var(--Medium-Grey);
+    border-radius: 25px;
+    padding: 7px 15px 7px 15px;
+    margin: 2rem 0 2rem 0;
+}
+.thank-paragraph{
+    text-align: center;
+    margin: 1rem 12px 0 12px;
 }
