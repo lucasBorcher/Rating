@@ -12,11 +12,13 @@
 :root{
     --Orange: hsl(25, 97%, 53%);
     --White: hsl(0, 0%, 100%);
-    --Light-Grey: hsl(217, 61%, 74%);
-    --Medium-Grey: hsl(216, 12%, 54%);
+    --Light-Grey: hsl(216, 12%, 54%);
+    --Medium-Grey: hsl(217, 10%, 25%);
     --Dark-Blue: hsl(213, 19%, 18%);
-    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --Very-Dark-Blue:hsl(216, 12%, 8%);
 }
+
+
 
 .background{
     width: 100vw;
@@ -55,7 +57,7 @@ h1{
 }
 
 p{
-    color: var(--Medium-Grey);
+    color: var(--Light-Grey);
     margin: 1rem 1.2rem 1.5rem 0 ;
     line-height: 1.5rem;
 }
