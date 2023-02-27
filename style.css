@@ -132,3 +132,10 @@ p{
     text-align: center;
     margin: 1rem 12px 0 12px;
 }
+
+.error{
+    font-size: 10px;
+    color: rgb(230, 41, 41);
+    margin: 0;
+    text-align: center;
+}
