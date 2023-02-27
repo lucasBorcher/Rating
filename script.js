@@ -24,7 +24,7 @@ divs.forEach(function(div) {
       div.classList.remove("active");
     });
 
-   
+  
     this.classList.add("active");
     const value = this.getAttribute("data-value");
     result.textContent = 'You selected ' +value +' out of 5';
