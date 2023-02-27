@@ -11,7 +11,7 @@ submit.addEventListener("click", function () {
     container2.style.display = "flex";
     console.log("Clicked!");
   } else {
-    fejl.textContent = 'You need to select a rating before submitting'
+    fejl.textContent = 'Select a rating before submitting'
     console.log("fejl");
   }
 });
